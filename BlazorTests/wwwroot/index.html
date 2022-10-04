@@ -46,8 +46,20 @@
     </div>
     <script src="_framework/blazor.webassembly.js"></script>
     <script>
-        window.getCurrentWindowWidth = () => {
-            return window.screen.width;
+        window.browserResize = {
+            getWindowDimensions: function () {
+                return {
+                    Height: window.innerHeight,
+                    Width: window.innerWidth
+
+                };
+            },
+            registerResizeCallback: function () {
+                window.addEventListener("resize", browserResize.resized);
+            },
+            resized: function () {
+                DotNet.invokeMethodAsync("BlazorTests", 'OnBrowserResize').then(data => data);
+            }
         }
     </script>
 </body>
