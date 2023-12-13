@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "BlazorExperiments.UI",
   "resources": {
-    "hash": "sha256-NEetugCHyL6xG/ZrJvW4afrBt0UUt61ixwenXr05w8M=",
+    "hash": "sha256-2VzK36ZljX+ZfBwEFyJaIijaT9uXKyMcjHjjbrpCQg8=",
     "jsModuleNative": {
       "dotnet.native.8.0.0.u4v8ifb83o.js": "sha256-8+S1u/MO/2rGd5tXesQTPiaEyGxqix6pRVZmz/E1WYQ="
     },
@@ -9,11 +9,11 @@
       "dotnet.runtime.8.0.0.t0913f5lcu.js": "sha256-WdSX3HQvnBYF0KJLZoOyHvTzMHetaob6PV0Kn2K+QXw="
     },
     "wasmNative": {
-      "dotnet.native.wasm": "sha256-gtzkbJ+UNAD38iVt1PwpwTZaeJkOztX4S35kqR69hD8="
+      "dotnet.native.wasm": "sha256-Hyd5pbym2ZSkLO3dRuv7tiIfTOFMl3xThf+BC+uhpU0="
     },
     "assembly": {
       "Blazor.Canvas.wasm": "sha256-ad3GXrECc+LltltWkljS2szF58J2S4MRiM6B3SZ3ZSY=",
-      "BlazorExperiments.UI.wasm": "sha256-PbUaqT8inbHhmzS5ES8pMQTusW+lkTFZHjeSKIPOElM=",
+      "BlazorExperiments.UI.wasm": "sha256-3wlpTYFEuK9QfpZuukTYaXeO/LrbtkYzEZ8bIxMeHKw=",
       "Excubo.Generators.Blazor.Attributes.wasm": "sha256-VfHoi4eVUqmuOst5n2t67MgetrSyk/L6brHeCDWVjHE=",
       "Microsoft.AspNetCore.Components.wasm": "sha256-aUi2meImxbs9tydckU+xd8RSDGxL3h+3ctzqLwQ3W4I=",
       "Microsoft.AspNetCore.Components.Web.wasm": "sha256-+sf5BdLbg86INlx/1kdyrxdRja/415uluEabkG2a2Ak=",
