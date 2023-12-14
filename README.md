@@ -1,13 +1,8 @@
 Experiments with [Blazor](https://dotnet.microsoft.com/en-us/apps/aspnet/web-apps/blazor) WASM.
 
-Snake game: https://blazor.github.io/snake
+Snake game: https://blazor.github.io/blazor/snake  
+Game Of Life: https://blazor.github.io/blazor/game-of-life
 
-### Build and Run
+### Source code
 
-```bash
-cd /repo/folder
-
-dotnet workload restore
-dotnet build
-dotnet run --project .\BlazorExperiments\BlazorExperiments.UI.csproj
-```
+https://github.com/iSeiryu/blazor-wasm-experiments
